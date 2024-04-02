@@ -1,0 +1,400 @@
+ * {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+ }
+
+ .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    align-items: center;
+    height: 70px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: crimson;
+ }
+
+ .header .item {
+    display: flex;
+    column-gap: 30px;
+ }
+
+ .header .item a {
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+ }
+
+
+ .header .item a:hover {
+    color: rgb(119, 107, 107);
+ }
+
+ .hero-sec {
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+ }
+
+ .hero-sec .text {
+    padding: 0 10%;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+ }
+
+ .hero-sec .text .btn {
+    display: flex;
+    column-gap: 20px;
+ }
+
+ .hero-sec .text .btn .button-one {
+    padding: 10px 40px;
+    border: 2px solid crimson;
+    background-color: black;
+    color: crimson;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+ }
+
+ .hero-sec .text .btn .button-one:hover {
+    padding: 10px 40px;
+    border: none;
+    background-color: crimson;
+    color: white;
+ }
+
+ .hero-sec .text .btn button {
+    padding: 10px 40px;
+    background-color: crimson;
+    border: none;
+    font-size: 17px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+ }
+
+ .hero-sec .text .btn button:hover {
+    padding: 10px 40px;
+    border: 2px solid crimson;
+    background-color: black;
+    color: crimson;
+ }
+
+ .hero-sec .head-text {
+    color: white;
+    font-size: 4rem;
+    font-weight: 700;
+ }
+
+ .hero-sec p {
+    color: white;
+ }
+
+ .about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: auto;
+ }
+
+ .about .txt {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .about .about-text {
+    margin-top: 30px;
+    display: flex;
+    column-gap: 44px;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .about .about-text .left img {
+    /* width: 411px; */
+    height: 370px;
+    border-radius: 8px;
+ }
+
+ .about .about-text .right p {
+    text-align: justify;
+ }
+
+ .about .about-text .right p span {
+    color: crimson;
+    font-size: 20px;
+ }
+
+ .service {
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+ }
+
+ .service .txt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+ .service .main-box {
+    margin-top: 30px;
+    padding: 0 10%;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .service .main-box .box {
+    background-color: #222;
+    width: 350px;
+    overflow: hidden;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 20px;
+    height: 300px;
+    border-radius: 7px;
+ }
+
+ .service .main-box .box img {
+    width: 100px;
+ }
+
+
+
+ .team {
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+ }
+
+ .team .txt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+ .team .main-box {
+    margin-top: 30px;
+    padding: 0 10%;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .team .main-box .box {
+    background-color: #222;
+    width: 350px;
+    overflow: hidden;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 20px;
+    height: 300px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+ }
+
+ .team .main-box .box:hover {
+    background-color: crimson;
+    color: white;
+ }
+
+ .team .main-box .box img {
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid crimson;
+ }
+
+ .skill {
+    padding-top: 40px;
+    padding-bottom: 40px;
+ }
+
+ .skill .main-box {
+    margin-top: 30px;
+    display: flex;
+    column-gap: 40px;
+    padding: 0 10%;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .skill .txt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+ .skill .main-box .left p {
+    text-align: justify;
+ }
+
+ .skill .main-box .left p span {
+    color: crimson;
+ }
+
+ .skill .main-box .right .divone {
+    width: 500px;
+    height: 5px;
+    background-color: #222;
+ }
+
+ .skill .main-box .right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    row-gap: 8px;
+ }
+
+ .skill .main-box .right label {
+    display: flex;
+    align-items: center;
+ }
+
+ .skill .main-box .right .div2 {
+    width: 400px;
+    height: 5px;
+    background-color: crimson;
+ }
+
+ .project .txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .project {
+    padding-top: 40px;
+    padding-bottom: 40px;
+ }
+
+ .project .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+ }
+
+ .project .btn button {
+    padding: 10px 40px;
+    background-color: crimson;
+    border: none;
+    font-size: 17px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+ }
+
+ .project .btn button:hover {
+    padding: 10px 40px;
+    border: 2px solid crimson;
+    background-color: white;
+    color: crimson;
+ }
+
+ .project .main-box {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+ }
+
+ .project .main-box .box {
+    width: 339px;
+    overflow: hidden;
+    margin: 10px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+ }
+
+ .project .main-box .box img {
+    width: -webkit-fill-available;
+    height: auto;
+ }
+
+ .project .main-box .box p {
+    padding: 20px;
+    transition: all 0.4s ease-in-out;
+ }
+
+ .project .main-box .box p:hover {
+    text-decoration: underline;
+    color: crimson;
+    cursor: pointer;
+ }
+
+ .foot {
+   display: flex;
+   justify-content: space-between;
+   padding: 0 5%;
+   align-items: center;
+   height: 70px;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   background-color: black;
+}
+
+.foot .copyright p{
+   color: white;
+}
+
+.foot .copyright p span{
+   color: crimson;
+   cursor: pointer;
+}
+
+.foot .item {
+   display: flex;
+   column-gap: 30px;
+}
+
+.foot .item a {
+   text-decoration: none;
+   font-size: 17px;
+   color: white;
+}
+
+
+.foot .item a:hover {
+   color: rgb(119, 107, 107);
+}
